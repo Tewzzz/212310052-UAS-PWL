@@ -1,0 +1,70 @@
+/* src/components/FeaturedProducts.css */
+
+.featured-products {
+  padding: 50px 0; /* Memperbesar padding */
+  background-color: #333;
+  color: #fff;
+}
+
+.featured-products h2 {
+  font-size: 2rem; /* Ukuran font yang lebih besar */
+  margin-bottom: 20px; /* Jarak bawah */
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap; /* Baris berbalut */
+  justify-content: space-around; /* Penyusunan rata-rata */
+}
+
+.product-card {
+  width: 250px; /* Lebar elemen */
+  background-color: #fff; /* Latar belakang putih */
+  color: #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* bayangan */
+  border-radius: 5px; /* Rounding */
+  padding: 20px; /* Ukuran padding */
+  margin-bottom: 20px; /* Jarak bawah */
+}
+
+.product-card img {
+  max-width: 100%; /* Lebar gambar */
+  height: auto; /* Tinggi otomatis */
+  border-radius: 5px; /* Rounding */
+  margin-bottom: 10px; /* Jarak bawah */
+}
+
+.product-card h3 {
+  font-size: 1.5rem; /* Ukuran font */
+  margin-bottom: 10px; /* Jarak bawah */
+}
+
+.product-card p {
+  font-size: 1.2rem; /* Ukuran font */
+  margin-bottom: 15px; /* Jarak bawah */
+}
+
+.product-card button {
+  background-color: #007bff; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  border: none; /* Tidak ada batas */
+  padding: 10px 20px; /* Padding */
+  border-radius: 5px; /* Rounding */
+  cursor: pointer; /* Penunjuk */
+  transition: background-color 0.3s ease; /* Transisi */
+}
+
+.product-card button:hover {
+  background-color: #0056b3; /* Warna latar belakang yang berbeda */
+}
+
+/* Style for Link */
+.product-card a {
+  text-decoration: none; /* Tidak ada garis bawah */
+  color: inherit; /* Warna teks diwariskan */
+}
+
+/* Transition untuk efek hover */
+.product-card:hover {
+  transform: translateY(-5px); /* Transisi */
+}

@@ -1,0 +1,202 @@
+/* ProductDetail.css */
+
+.product-detail {
+  /* width: 100%; */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.product-detail .product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-detail .product-banner {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product-detail p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.product-detail .form-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.product-detail .form-column {
+  flex: 1;
+  max-width: 48%;
+  margin-right: 15px;
+}
+
+.product-detail label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product-detail input[type="text"],
+.product-detail input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-detail .max-price-input {
+  margin-top: 20px;
+  max-width: 99%;
+}
+
+.product-detail .max-price-input label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product-detail .diamond-options {
+  margin-top: 20px;
+}
+
+.product-detail .diamond-options h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-detail .diamond-options ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-detail .diamond-options li {
+  flex: 1 1 calc(33.333% - 10px);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-detail .diamond-options li.selected {
+  border: 2px solid #007bff; /* Warna border untuk diamond yang dipilih */
+}
+
+.product-detail .diamond-options button {
+  width: 100%;
+  max-width: 200px;
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-detail .diamond-options button:hover {
+  background-color: #0056b3;
+}
+
+.product-detail .diamond-options button.selected {
+  background-color: #0056b3; /* Warna latar belakang untuk diamond yang dipilih */
+}
+
+.product-detail .payment-options {
+  margin-top: 20px;
+}
+
+.product-detail .payment-options h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-detail .payment-options ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-detail .payment-options li {
+  flex: 1 1 calc(33.333% - 10px);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-detail .payment-options button {
+  width: 100%;
+  max-width: 200px;
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-detail .payment-options button:hover {
+  background-color: #218838;
+}
+
+/* CSS tambahan untuk OrderConfirmation */
+.product-detail .order-confirmation {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail .order-confirmation h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-detail .order-confirmation p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product-detail .order-confirmation button {
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.product-detail .order-confirmation button:hover {
+  background-color: #0056b3;
+}

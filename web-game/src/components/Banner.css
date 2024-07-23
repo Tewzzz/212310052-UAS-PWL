@@ -1,0 +1,14 @@
+/* src/components/Banner.css */
+
+.banner {
+    height: 300px; /* Sesuaikan tinggi sesuai kebutuhan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+  

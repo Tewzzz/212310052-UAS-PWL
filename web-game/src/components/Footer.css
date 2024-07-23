@@ -1,0 +1,82 @@
+/* Footer.css */
+
+.footer-container {
+  background-color: #000000;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  width: 100%; /* Membuat footer penuh lebar */
+}
+
+.footer-container .container {
+  max-width: 1200px; /* Membatasi lebar maksimum kontainer */
+  margin: 0 auto; /* Pusatkan kontainer */
+  padding: 0 20px; /* Tambahkan padding untuk konten */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  width: 100%; /* Membuat konten footer penuh lebar */
+  flex-wrap: wrap; /* Menambahkan kemampuan untuk membungkus konten saat layar kecil */
+}
+
+.footer-container .footer-left {
+  flex: 1;
+  max-width: 50%;
+  text-align: left; /* Mengatur teks kiri */
+}
+
+.footer-container .footer-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right; /* Mengatur teks kanan */
+}
+
+.footer-container .social-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Memberi jarak antara ikon media sosial dan konten lainnya */
+}
+
+.footer-container .social-links li {
+  margin-right: 10px;
+}
+
+.footer-container .social-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-container .social-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer-container .footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid rgb(255, 255, 255); /* Garis bawah dengan opacity */
+  width: 100%; /* Membuat garis bawah penuh lebar */
+}
+
+.footer-container .footer-bottom p {
+  margin: 10px 0 0; /* Margin untuk memisahkan teks dari garis */
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-container .footer-bottom p span {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #ccc; /* Warna teks tambahan */
+}

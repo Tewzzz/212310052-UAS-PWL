@@ -1,0 +1,45 @@
+/* Header.css */
+
+.header {
+  position: fixed; /* Membuat header tetap di posisi */
+  top: 0; /* Meletakkan header di bagian atas layar */
+  width: 100%; /* Lebar header mengisi seluruh lebar layar */
+  background-color: #000000; /* Warna latar belakang header */
+  padding: 10px 0; /* Padding atas dan bawah header */
+  z-index: 1000; /* Z-index untuk mengatur urutan tumpukan */
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Lebar maksimum container */
+  margin: 0 auto; /* Membuat container berada di tengah */
+  padding: 0 20px; /* Padding kiri dan kanan container */
+}
+
+.header .logo {
+  font-size: 1.5rem; /* Ukuran font untuk nama toko */
+  color: #fff; /* Warna teks nama toko */
+}
+
+.header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header nav ul li {
+  margin-right: 20px; /* Jarak antar menu navigasi */
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #fff; /* Warna teks menu navigasi */
+  font-weight: 600;
+}
+
+.header nav ul li a:hover {
+  color: #ffc107; /* Warna teks menu navigasi saat dihover */
+}
